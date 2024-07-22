@@ -1,0 +1,55 @@
+.game{
+    width: 700px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin: auto;
+}
+.x,.y{
+    color: black;
+}
+.board{
+    width:87%;
+background-color: rgb(0, 0, 0);
+padding:5px 0;
+margin: 5px 0;
+font-size: 50px;
+border-radius:5px;
+color: rgb(0, 204, 255);
+
+}
+.board span{
+    color:white;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px rgb(0, 204, 255);
+}
+.squer{
+    width: 200px;
+    height:200px;
+background-color: rgb(0, 204, 255);
+margin: 2px;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:150px;
+padding-bottom: 10px;
+text-align:center;
+font-weight: bold;
+
+}
+.squer:hover{
+    background-color:black;
+    cursor: pointer;
+}
+.score{
+width: 200px;
+height:100%;
+background-color: rgb(0, 204, 255);
+color:white;
+font-size:30px;
+display: flex;
+flex-direction: column;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-left: 10px;
+}
